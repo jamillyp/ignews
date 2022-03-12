@@ -1,6 +1,6 @@
 .headerContainer {
     height: 5rem;
-    border-bottom: 1px solid #29292e;
+    border-bottom: 1px solid var(--gray-800);
 }
 
 .headerContent {
@@ -15,6 +15,10 @@
     nav {
         margin-left: 5rem;
         height: 5rem;
+    }
+
+    button {
+        margin-left: auto;
     }
 
     a {
